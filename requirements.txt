@@ -1,0 +1,12 @@
+pyspark
+dbt-duckdb
+apache-airflow
+scikit-learn
+pandas
+matplotlib
+streamlit
+pandera
+faker
+numpy
+duckdb
+sqlalchemy
