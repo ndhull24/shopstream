@@ -10,3 +10,7 @@ faker
 numpy
 duckdb
 sqlalchemy
+seaborn
+plotly
+nbformat
+ipykernel

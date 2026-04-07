@@ -1,0 +1,50 @@
+[2026-04-07T19:07:19.245+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-07T19:07:19.417+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: shopstream_pipeline.ingest_raw_data manual__2026-04-07T19:07:17.291713+00:00 [queued]>
+[2026-04-07T19:07:19.434+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: shopstream_pipeline.ingest_raw_data manual__2026-04-07T19:07:17.291713+00:00 [queued]>
+[2026-04-07T19:07:19.435+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-04-07T19:07:19.464+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): ingest_raw_data> on 2026-04-07 19:07:17.291713+00:00
+[2026-04-07T19:07:19.479+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1324) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-07T19:07:19.478+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'shopstream_pipeline', 'ingest_raw_data', 'manual__2026-04-07T19:07:17.291713+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/shopstream_pipeline.py', '--cfg-path', '/tmp/tmppdrlqlx1']
+[2026-04-07T19:07:19.482+0000] {standard_task_runner.py:63} INFO - Started process 1325 to run task
+[2026-04-07T19:07:19.482+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask ingest_raw_data
+[2026-04-07T19:07:19.598+0000] {task_command.py:426} INFO - Running <TaskInstance: shopstream_pipeline.ingest_raw_data manual__2026-04-07T19:07:17.291713+00:00 [running]> on host 6b94f4fc707d
+[2026-04-07T19:07:19.758+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='navdeep' AIRFLOW_CTX_DAG_ID='shopstream_pipeline' AIRFLOW_CTX_TASK_ID='ingest_raw_data' AIRFLOW_CTX_EXECUTION_DATE='2026-04-07T19:07:17.291713+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-07T19:07:17.291713+00:00'
+[2026-04-07T19:07:19.761+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-07T19:07:30.508+0000] {logging_mixin.py:188} INFO - Phase 2 — ingestion starting...
+
+  Loading CSVs...
+  Casting types...
+
+  Writing to SQLite → data/shopstream.db
+
+  Running validation queries...
+    Total customers          : [(1010,)]
+    Duplicate customers      : [(10,)]
+    Missing emails           : [(19,)]
+    Total orders             : [(5000,)]
+    Orders by status         : [('cancelled', 510), ('completed', 3473), ('pending', 749), ('refunded', 268)]
+    Total order items        : [(15205,)]
+    Missing shipping city    : [(151,)]
+    Total events             : [(50000,)]
+    Anonymous events         : [(7475,)]
+    Revenue (completed)      : [(5113032.8,)]
+
+  Writing to DuckDB → data/shopstream.duckdb
+
+  DuckDB — revenue by product category:
+     category  num_orders  total_revenue  avg_line_value
+  Electronics        1658     2587211.85         1191.17
+       Sports        1586     1086671.46          524.20
+Home & Garden        1584      851203.34          413.01
+     Clothing        1688      450614.47          203.44
+        Books        1602      137331.68           65.21
+
+ Phase 2 complete!
+   SQLite  → data/shopstream.db
+   DuckDB  → data/shopstream.duckdb
+[2026-04-07T19:07:30.510+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-07T19:07:30.512+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-07T19:07:30.536+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=shopstream_pipeline, task_id=ingest_raw_data, run_id=manual__2026-04-07T19:07:17.291713+00:00, execution_date=20260407T190717, start_date=20260407T190719, end_date=20260407T190730
+[2026-04-07T19:07:30.575+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-07T19:07:30.620+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-07T19:07:30.625+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

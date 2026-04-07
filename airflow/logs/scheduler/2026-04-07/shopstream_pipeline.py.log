@@ -1518,3 +1518,822 @@ IndentationError: expected an indented block after function definition on line 2
 [2026-04-07T18:18:34.050+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:18:34.050+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2026-04-07T18:18:34.102+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:18:34.101+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
 [2026-04-07T18:18:34.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.246 seconds
+[2026-04-07T18:19:04.796+0000] {processor.py:161} INFO - Started process (PID=904) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:19:04.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:19:04.812+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:19:04.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:19:04.906+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:19:05.139+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:19:05.139+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:19:05.194+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:19:05.193+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:19:05.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.469 seconds
+[2026-04-07T18:19:35.712+0000] {processor.py:161} INFO - Started process (PID=909) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:19:35.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:19:35.718+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:19:35.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:19:35.770+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:19:35.824+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:19:35.824+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:19:35.870+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:19:35.869+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:19:35.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.229 seconds
+[2026-04-07T18:20:06.157+0000] {processor.py:161} INFO - Started process (PID=914) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:20:06.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:20:06.163+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:20:06.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:20:06.209+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:20:06.267+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:20:06.266+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:20:06.318+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:20:06.317+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:20:06.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.223 seconds
+[2026-04-07T18:20:36.923+0000] {processor.py:161} INFO - Started process (PID=919) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:20:36.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:20:36.929+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:20:36.928+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:20:36.986+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:20:37.038+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:20:37.038+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:20:37.084+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:20:37.084+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:20:37.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.258 seconds
+[2026-04-07T18:21:07.484+0000] {processor.py:161} INFO - Started process (PID=924) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:21:07.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:21:07.491+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:21:07.490+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:21:07.552+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:21:07.611+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:21:07.610+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:21:07.711+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:21:07.711+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:21:07.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.319 seconds
+[2026-04-07T18:21:38.126+0000] {processor.py:161} INFO - Started process (PID=929) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:21:38.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:21:38.133+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:21:38.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:21:38.200+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:21:38.261+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:21:38.260+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:21:38.306+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:21:38.305+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:21:38.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.245 seconds
+[2026-04-07T18:22:08.791+0000] {processor.py:161} INFO - Started process (PID=934) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:22:08.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:22:08.797+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:22:08.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:22:08.867+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:22:08.928+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:22:08.927+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:22:08.971+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:22:08.971+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:22:09.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.237 seconds
+[2026-04-07T18:22:39.443+0000] {processor.py:161} INFO - Started process (PID=939) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:22:39.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:22:39.459+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:22:39.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:22:39.570+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:22:39.707+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:22:39.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:22:39.784+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:22:39.783+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:22:39.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.405 seconds
+[2026-04-07T18:23:10.030+0000] {processor.py:161} INFO - Started process (PID=944) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:23:10.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:23:10.035+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:23:10.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:23:10.096+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:23:10.151+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:23:10.151+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:23:10.194+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:23:10.194+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:23:10.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.214 seconds
+[2026-04-07T18:23:40.456+0000] {processor.py:161} INFO - Started process (PID=949) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:23:40.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:23:40.463+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:23:40.462+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:23:40.521+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:23:40.583+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:23:40.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:23:40.624+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:23:40.624+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:23:40.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.232 seconds
+[2026-04-07T18:24:11.151+0000] {processor.py:161} INFO - Started process (PID=954) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:24:11.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:24:11.157+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:24:11.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:24:11.213+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:24:11.259+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:24:11.258+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:24:11.293+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:24:11.293+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:24:11.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.193 seconds
+[2026-04-07T18:24:41.624+0000] {processor.py:161} INFO - Started process (PID=959) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:24:41.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:24:41.630+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:24:41.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:24:41.683+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:24:41.775+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:24:41.774+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:24:41.835+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:24:41.834+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:24:41.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.260 seconds
+[2026-04-07T18:25:12.321+0000] {processor.py:161} INFO - Started process (PID=964) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:25:12.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:25:12.326+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:25:12.325+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:25:12.380+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:25:12.442+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:25:12.442+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:25:12.486+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:25:12.486+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:25:12.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.222 seconds
+[2026-04-07T18:25:42.800+0000] {processor.py:161} INFO - Started process (PID=969) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:25:42.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:25:42.806+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:25:42.805+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:25:42.870+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:25:42.921+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:25:42.920+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:25:42.951+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:25:42.951+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:25:42.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.200 seconds
+[2026-04-07T18:26:13.645+0000] {processor.py:161} INFO - Started process (PID=974) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:26:13.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:26:13.650+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:26:13.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:26:13.768+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:26:13.857+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:26:13.856+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:26:13.914+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:26:13.914+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:26:13.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.347 seconds
+[2026-04-07T18:26:44.106+0000] {processor.py:161} INFO - Started process (PID=979) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:26:44.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:26:44.113+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:26:44.111+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:26:44.152+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:26:44.192+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:26:44.192+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:26:44.229+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:26:44.228+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:26:44.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.193 seconds
+[2026-04-07T18:27:14.686+0000] {processor.py:161} INFO - Started process (PID=984) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:27:14.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:27:14.694+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:27:14.692+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:27:14.758+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:27:14.819+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:27:14.819+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:27:14.854+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:27:14.854+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:27:14.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.225 seconds
+[2026-04-07T18:27:45.330+0000] {processor.py:161} INFO - Started process (PID=989) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:27:45.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:27:45.336+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:27:45.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:27:45.399+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:27:45.455+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:27:45.455+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:27:45.502+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:27:45.501+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:27:45.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.230 seconds
+[2026-04-07T18:28:15.833+0000] {processor.py:161} INFO - Started process (PID=994) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:28:15.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:28:15.838+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:28:15.837+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:28:15.912+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:28:15.966+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:28:15.966+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:28:16.006+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:28:16.006+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:28:16.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.226 seconds
+[2026-04-07T18:28:46.550+0000] {processor.py:161} INFO - Started process (PID=999) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:28:46.552+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:28:46.556+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:28:46.555+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:28:46.640+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:28:46.707+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:28:46.706+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:28:46.744+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:28:46.743+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:28:46.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.282 seconds
+[2026-04-07T18:29:17.192+0000] {processor.py:161} INFO - Started process (PID=1004) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:29:17.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:29:17.203+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:29:17.202+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:29:17.308+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:29:17.452+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:29:17.452+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:29:17.518+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:29:17.517+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:29:17.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.417 seconds
+[2026-04-07T18:29:47.959+0000] {processor.py:161} INFO - Started process (PID=1009) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:29:47.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:29:47.967+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:29:47.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:29:48.039+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:29:48.112+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:29:48.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:29:48.165+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:29:48.164+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:29:48.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.269 seconds
+[2026-04-07T18:30:18.568+0000] {processor.py:161} INFO - Started process (PID=1014) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:30:18.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:30:18.573+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:30:18.573+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:30:18.628+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:30:18.686+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:30:18.686+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:30:18.726+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:30:18.726+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:30:18.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.221 seconds
+[2026-04-07T18:30:49.217+0000] {processor.py:161} INFO - Started process (PID=1019) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:30:49.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:30:49.227+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:30:49.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:30:49.276+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:30:49.359+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:30:49.358+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:30:49.429+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:30:49.428+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:30:49.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.275 seconds
+[2026-04-07T18:31:20.221+0000] {processor.py:161} INFO - Started process (PID=1024) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:31:20.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:31:20.239+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:31:20.237+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:31:20.323+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:31:20.421+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:31:20.420+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:31:20.486+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:31:20.485+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:31:20.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.363 seconds
+[2026-04-07T18:31:50.736+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:31:50.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:31:50.743+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:31:50.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:31:50.822+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:31:50.903+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:31:50.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:31:50.984+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:31:50.983+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:31:51.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.338 seconds
+[2026-04-07T18:32:21.707+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:32:21.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:32:21.719+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:32:21.717+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:32:21.849+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:32:21.984+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:32:21.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:32:22.048+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:32:22.047+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:32:22.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.425 seconds
+[2026-04-07T18:32:52.768+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:32:52.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:32:52.774+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:32:52.773+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:32:52.849+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:32:52.945+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:32:52.943+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:32:53.109+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:32:53.108+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:32:53.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.477 seconds
+[2026-04-07T18:33:23.790+0000] {processor.py:161} INFO - Started process (PID=1044) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:33:23.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:33:23.804+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:33:23.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:33:23.856+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:33:23.908+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:33:23.907+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:33:23.951+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:33:23.950+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:33:23.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.242 seconds
+[2026-04-07T18:33:54.480+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:33:54.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:33:54.485+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:33:54.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:33:54.543+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:33:54.575+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:33:54.575+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:33:54.595+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:33:54.595+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:33:54.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.142 seconds
+[2026-04-07T18:34:25.791+0000] {processor.py:161} INFO - Started process (PID=1054) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:34:25.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:34:25.795+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:34:25.795+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:34:25.820+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:34:25.847+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:34:25.847+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:34:25.866+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:34:25.865+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:34:25.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.099 seconds
+[2026-04-07T18:34:57.178+0000] {processor.py:161} INFO - Started process (PID=1059) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:34:57.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:34:57.181+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:34:57.181+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:34:57.208+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:34:57.237+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:34:57.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:34:57.256+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:34:57.256+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:34:57.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.106 seconds
+[2026-04-07T18:35:28.632+0000] {processor.py:161} INFO - Started process (PID=1064) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:35:28.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:35:28.636+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:35:28.636+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:35:28.658+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:35:28.684+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:35:28.684+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:35:28.703+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:35:28.703+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:35:28.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.094 seconds
+[2026-04-07T18:35:59.076+0000] {processor.py:161} INFO - Started process (PID=1069) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:35:59.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:35:59.080+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:35:59.079+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:35:59.101+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:35:59.129+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:35:59.129+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:35:59.148+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:35:59.148+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:35:59.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.096 seconds
+[2026-04-07T18:36:30.485+0000] {processor.py:161} INFO - Started process (PID=1074) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:36:30.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:36:30.488+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:36:30.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:36:30.521+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:36:30.558+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:36:30.557+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:36:30.578+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:36:30.578+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:36:30.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.120 seconds
+[2026-04-07T18:37:01.891+0000] {processor.py:161} INFO - Started process (PID=1079) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:37:01.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:37:01.893+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:37:01.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:37:01.913+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:37:01.937+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:37:01.937+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:37:01.954+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:37:01.953+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:37:01.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.084 seconds
+[2026-04-07T18:37:33.282+0000] {processor.py:161} INFO - Started process (PID=1084) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:37:33.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:37:33.286+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:37:33.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:37:33.310+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:37:33.336+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:37:33.336+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:37:33.354+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:37:33.354+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:37:33.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.096 seconds
+[2026-04-07T18:38:03.733+0000] {processor.py:161} INFO - Started process (PID=1089) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:38:03.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:38:03.738+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:38:03.737+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:38:03.779+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:38:03.828+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:38:03.828+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:38:03.862+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:38:03.861+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:38:03.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.169 seconds
+[2026-04-07T18:38:35.220+0000] {processor.py:161} INFO - Started process (PID=1094) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:38:35.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:38:35.233+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:38:35.232+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:38:35.315+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:38:35.398+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:38:35.397+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:38:35.465+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:38:35.464+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:38:35.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.317 seconds
+[2026-04-07T18:39:06.643+0000] {processor.py:161} INFO - Started process (PID=1099) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:39:06.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:39:06.648+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:39:06.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:39:06.686+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:39:06.729+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:39:06.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:39:06.768+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:39:06.768+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:39:06.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.170 seconds
+[2026-04-07T18:39:37.214+0000] {processor.py:161} INFO - Started process (PID=1104) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:39:37.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:39:37.220+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:39:37.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:39:37.258+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:39:37.308+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:39:37.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:39:37.344+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:39:37.344+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:39:37.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.177 seconds
+[2026-04-07T18:40:08.581+0000] {processor.py:161} INFO - Started process (PID=1109) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:40:08.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:40:08.585+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:40:08.585+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:40:08.622+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:40:08.665+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:40:08.665+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:40:08.693+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:40:08.693+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:40:08.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.148 seconds
+[2026-04-07T18:40:40.127+0000] {processor.py:161} INFO - Started process (PID=1114) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:40:40.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:40:40.132+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:40:40.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:40:40.169+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:40:40.203+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:40:40.203+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:40:40.229+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:40:40.229+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:40:40.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.133 seconds
+[2026-04-07T18:41:10.645+0000] {processor.py:161} INFO - Started process (PID=1119) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:41:10.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:41:10.649+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:41:10.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:41:10.690+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:41:10.737+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:41:10.737+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:41:10.768+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:41:10.768+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:41:10.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.165 seconds
+[2026-04-07T18:41:42.067+0000] {processor.py:161} INFO - Started process (PID=1124) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:41:42.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:41:42.071+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:41:42.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:41:42.120+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:41:42.153+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:41:42.153+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:41:42.174+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:41:42.174+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:41:42.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.136 seconds
+[2026-04-07T18:42:13.453+0000] {processor.py:161} INFO - Started process (PID=1129) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:42:13.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:42:13.457+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:42:13.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:42:13.502+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:42:13.538+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:42:13.538+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:42:13.564+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:42:13.564+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:42:13.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.143 seconds
+[2026-04-07T18:42:44.957+0000] {processor.py:161} INFO - Started process (PID=1134) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:42:44.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:42:44.965+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:42:44.964+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:42:45.017+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:42:45.058+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:42:45.058+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:42:45.088+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:42:45.087+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:42:45.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.178 seconds
+[2026-04-07T18:43:15.496+0000] {processor.py:161} INFO - Started process (PID=1139) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:43:15.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:43:15.501+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:43:15.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:43:15.548+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:43:15.587+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:43:15.587+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:43:15.615+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:43:15.615+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:43:15.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.156 seconds
+[2026-04-07T18:43:46.856+0000] {processor.py:161} INFO - Started process (PID=1144) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:43:46.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:43:46.860+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:43:46.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:43:46.886+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:43:46.912+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:43:46.912+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:43:46.930+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:43:46.930+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:43:46.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.100 seconds
+[2026-04-07T18:44:18.192+0000] {processor.py:161} INFO - Started process (PID=1149) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:44:18.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:44:18.195+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:44:18.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:44:18.214+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:44:18.244+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:44:18.244+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:44:18.267+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:44:18.267+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:44:18.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.103 seconds
+[2026-04-07T18:44:49.624+0000] {processor.py:161} INFO - Started process (PID=1154) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:44:49.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:44:49.627+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:44:49.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:44:49.651+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:44:49.683+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:44:49.683+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:44:49.708+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:44:49.708+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:44:49.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.112 seconds
+[2026-04-07T18:45:19.966+0000] {processor.py:161} INFO - Started process (PID=1159) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:45:19.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:45:19.970+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:45:19.969+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:45:19.988+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:45:20.015+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:45:20.015+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:45:20.032+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:45:20.032+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:45:20.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.091 seconds
+[2026-04-07T18:45:51.338+0000] {processor.py:161} INFO - Started process (PID=1164) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:45:51.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:45:51.342+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:45:51.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:45:51.368+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:45:51.406+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:45:51.406+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:45:51.431+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:45:51.431+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:45:51.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.120 seconds
+[2026-04-07T18:46:25.972+0000] {processor.py:161} INFO - Started process (PID=1169) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:46:25.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:46:25.979+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:46:25.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:46:26.012+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:46:26.051+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:46:26.051+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:46:26.078+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:46:26.077+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:46:26.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.140 seconds
+[2026-04-07T18:46:56.562+0000] {processor.py:161} INFO - Started process (PID=1174) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:46:56.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:46:56.566+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:46:56.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:46:56.650+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:46:56.726+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:46:56.725+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:46:56.744+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:46:56.744+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:46:56.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.221 seconds
+[2026-04-07T18:52:39.812+0000] {processor.py:161} INFO - Started process (PID=1179) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:52:39.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:52:39.816+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:52:39.815+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:52:39.844+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:52:39.871+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:52:39.870+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:52:39.890+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:52:39.890+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:52:39.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.104 seconds
+[2026-04-07T18:53:10.497+0000] {processor.py:161} INFO - Started process (PID=1184) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:53:10.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:53:10.503+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:53:10.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:53:10.571+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:53:10.643+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:53:10.642+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:53:10.745+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:53:10.742+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:53:10.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.333 seconds
+[2026-04-07T18:53:40.967+0000] {processor.py:161} INFO - Started process (PID=1189) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:53:40.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:53:40.970+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:53:40.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:53:40.996+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:53:41.029+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:53:41.028+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:53:41.053+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:53:41.052+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:53:41.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.115 seconds
+[2026-04-07T18:54:11.393+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:54:11.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:54:11.396+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:54:11.396+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:54:11.423+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:54:11.448+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:54:11.448+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:54:11.465+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:54:11.465+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:54:11.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.096 seconds
+[2026-04-07T18:54:41.848+0000] {processor.py:161} INFO - Started process (PID=1199) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:54:41.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:54:41.853+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:54:41.853+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:54:41.881+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:54:41.915+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:54:41.915+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:54:41.940+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:54:41.939+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:54:41.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.126 seconds
+[2026-04-07T18:55:12.186+0000] {processor.py:161} INFO - Started process (PID=1204) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:55:12.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:55:12.190+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:55:12.189+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:55:12.214+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:55:12.245+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:55:12.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:55:12.265+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:55:12.265+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:55:12.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.111 seconds
+[2026-04-07T18:55:42.606+0000] {processor.py:161} INFO - Started process (PID=1209) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:55:42.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:55:42.609+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:55:42.609+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:55:42.625+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:55:42.648+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:55:42.648+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:55:42.667+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:55:42.667+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:55:42.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.084 seconds
+[2026-04-07T18:56:13.410+0000] {processor.py:161} INFO - Started process (PID=1214) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:56:13.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:56:13.414+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:56:13.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:56:13.447+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:56:13.480+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:56:13.480+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:56:13.503+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:56:13.503+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:56:13.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.126 seconds
+[2026-04-07T18:56:44.233+0000] {processor.py:161} INFO - Started process (PID=1219) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:56:44.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:56:44.240+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:56:44.239+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:56:44.290+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:56:44.344+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:56:44.344+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:56:44.383+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:56:44.382+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:56:44.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.197 seconds
+[2026-04-07T18:57:14.647+0000] {processor.py:161} INFO - Started process (PID=1224) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:57:14.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:57:14.652+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:57:14.651+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:57:14.683+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:57:14.716+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:57:14.716+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:57:14.744+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:57:14.744+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:57:14.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.130 seconds
+[2026-04-07T18:57:45.057+0000] {processor.py:161} INFO - Started process (PID=1229) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:57:45.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:57:45.061+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:57:45.060+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:57:45.088+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:57:45.120+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:57:45.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:57:45.141+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:57:45.141+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:57:45.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.112 seconds
+[2026-04-07T18:58:15.561+0000] {processor.py:161} INFO - Started process (PID=1234) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:58:15.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:58:15.565+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:58:15.565+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:58:15.591+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:58:15.624+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:58:15.624+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:58:15.650+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:58:15.649+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:58:15.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.119 seconds
+[2026-04-07T18:58:45.989+0000] {processor.py:161} INFO - Started process (PID=1239) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:58:45.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:58:45.992+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:58:45.992+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:58:46.015+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:58:46.044+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:58:46.044+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:58:46.065+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:58:46.065+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:58:46.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.102 seconds
+[2026-04-07T18:59:16.435+0000] {processor.py:161} INFO - Started process (PID=1244) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:59:16.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:59:16.439+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:59:16.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:59:16.462+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:59:16.487+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:59:16.487+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:59:16.506+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:59:16.506+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:59:16.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.096 seconds
+[2026-04-07T18:59:46.783+0000] {processor.py:161} INFO - Started process (PID=1249) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:59:46.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T18:59:46.789+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:59:46.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:59:46.838+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T18:59:46.880+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:59:46.880+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T18:59:46.913+0000] {logging_mixin.py:188} INFO - [2026-04-07T18:59:46.913+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T18:59:46.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.175 seconds
+[2026-04-07T19:00:17.175+0000] {processor.py:161} INFO - Started process (PID=1254) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:00:17.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:00:17.178+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:00:17.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:00:17.204+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:00:17.234+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:00:17.233+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:00:17.253+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:00:17.253+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:00:17.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.105 seconds
+[2026-04-07T19:00:47.594+0000] {processor.py:161} INFO - Started process (PID=1259) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:00:47.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:00:47.597+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:00:47.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:00:47.621+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:00:47.649+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:00:47.649+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:00:47.668+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:00:47.668+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:00:47.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.098 seconds
+[2026-04-07T19:01:17.939+0000] {processor.py:161} INFO - Started process (PID=1264) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:01:17.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:01:17.942+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:01:17.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:01:17.969+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:01:17.996+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:01:17.996+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:01:18.017+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:01:18.017+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:01:18.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.104 seconds
+[2026-04-07T19:01:48.343+0000] {processor.py:161} INFO - Started process (PID=1269) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:01:48.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:01:48.347+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:01:48.346+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:01:48.370+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:01:48.405+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:01:48.405+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:01:48.426+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:01:48.425+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:01:48.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.108 seconds
+[2026-04-07T19:02:18.711+0000] {processor.py:161} INFO - Started process (PID=1274) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:02:18.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:02:18.715+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:02:18.714+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:02:18.743+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:02:18.775+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:02:18.775+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:02:18.798+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:02:18.798+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:02:18.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.117 seconds
+[2026-04-07T19:02:49.390+0000] {processor.py:161} INFO - Started process (PID=1279) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:02:49.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:02:49.416+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:02:49.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:02:49.570+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:02:49.682+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:02:49.681+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:02:49.744+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:02:49.743+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:02:49.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.461 seconds
+[2026-04-07T19:03:20.385+0000] {processor.py:161} INFO - Started process (PID=1284) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:03:20.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:03:20.392+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:03:20.390+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:03:20.436+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:03:20.491+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:03:20.490+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:03:20.523+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:03:20.523+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:03:20.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.178 seconds
+[2026-04-07T19:03:50.717+0000] {processor.py:161} INFO - Started process (PID=1289) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:03:50.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:03:50.721+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:03:50.721+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:03:50.751+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:03:50.791+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:03:50.791+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:03:50.818+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:03:50.818+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:03:50.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.142 seconds
+[2026-04-07T19:04:21.132+0000] {processor.py:161} INFO - Started process (PID=1294) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:04:21.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:04:21.136+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:04:21.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:04:21.172+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:04:21.213+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:04:21.213+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:04:21.247+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:04:21.246+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:04:21.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.154 seconds
+[2026-04-07T19:04:51.590+0000] {processor.py:161} INFO - Started process (PID=1299) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:04:51.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:04:51.593+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:04:51.593+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:04:51.632+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:04:51.672+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:04:51.672+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:04:51.699+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:04:51.699+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:04:51.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.140 seconds
+[2026-04-07T19:05:21.993+0000] {processor.py:161} INFO - Started process (PID=1304) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:05:21.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:05:21.998+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:05:21.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:05:22.024+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:05:22.056+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:05:22.056+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:05:22.075+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:05:22.075+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:05:22.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.107 seconds
+[2026-04-07T19:05:52.499+0000] {processor.py:161} INFO - Started process (PID=1309) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:05:52.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:05:52.501+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:05:52.501+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:05:52.522+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:05:52.556+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:05:52.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:05:52.578+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:05:52.578+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:05:52.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.106 seconds
+[2026-04-07T19:06:22.880+0000] {processor.py:161} INFO - Started process (PID=1314) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:06:22.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:06:22.883+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:06:22.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:06:22.900+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:06:22.917+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:06:22.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:06:22.936+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:06:22.936+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:06:22.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.079 seconds
+[2026-04-07T19:06:53.389+0000] {processor.py:161} INFO - Started process (PID=1319) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:06:53.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:06:53.392+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:06:53.392+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:06:53.419+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:06:53.753+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:06:53.753+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:06:53.770+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:06:53.770+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:06:53.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.410 seconds
+[2026-04-07T19:07:24.242+0000] {processor.py:161} INFO - Started process (PID=1358) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:07:24.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:07:24.248+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:07:24.247+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:07:24.304+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:07:24.376+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:07:24.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:07:24.427+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:07:24.426+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:07:24.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.247 seconds
+[2026-04-07T19:07:54.646+0000] {processor.py:161} INFO - Started process (PID=1522) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:07:54.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:07:54.654+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:07:54.653+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:07:54.703+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:07:54.747+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:07:54.747+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:07:54.778+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:07:54.777+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:07:54.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.170 seconds
+[2026-04-07T19:08:25.003+0000] {processor.py:161} INFO - Started process (PID=1582) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:08:25.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:08:25.006+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:08:25.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:08:25.032+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:08:25.060+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:08:25.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:08:25.077+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:08:25.077+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:08:25.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.097 seconds
+[2026-04-07T19:08:55.494+0000] {processor.py:161} INFO - Started process (PID=1587) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:08:55.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:08:55.501+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:08:55.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:08:55.564+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:08:55.618+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:08:55.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:08:55.650+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:08:55.649+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:08:55.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.202 seconds
+[2026-04-07T19:09:26.867+0000] {processor.py:161} INFO - Started process (PID=1592) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:09:26.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:09:26.872+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:09:26.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:09:26.906+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:09:26.961+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:09:26.960+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:09:27.036+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:09:27.035+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:09:27.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.267 seconds
+[2026-04-07T19:09:58.484+0000] {processor.py:161} INFO - Started process (PID=1597) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:09:58.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:09:58.489+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:09:58.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:09:58.524+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:09:58.560+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:09:58.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:09:58.595+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:09:58.594+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:09:58.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.147 seconds
+[2026-04-07T19:10:29.024+0000] {processor.py:161} INFO - Started process (PID=1602) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:10:29.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:10:29.029+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:10:29.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:10:29.065+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:10:29.121+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:10:29.121+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:10:29.158+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:10:29.158+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:10:29.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.179 seconds
+[2026-04-07T19:11:00.440+0000] {processor.py:161} INFO - Started process (PID=1607) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:11:00.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:11:00.443+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:11:00.443+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:11:00.508+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:11:00.537+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:11:00.536+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:11:00.555+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:11:00.555+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:11:00.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.142 seconds
+[2026-04-07T19:11:31.855+0000] {processor.py:161} INFO - Started process (PID=1612) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:11:31.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:11:31.859+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:11:31.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:11:31.883+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:11:31.907+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:11:31.907+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:11:31.923+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:11:31.923+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:11:31.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.090 seconds
+[2026-04-07T19:12:03.303+0000] {processor.py:161} INFO - Started process (PID=1617) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:12:03.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:12:03.306+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:12:03.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:12:03.327+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:12:03.354+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:12:03.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:12:03.371+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:12:03.371+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:12:03.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.094 seconds
+[2026-04-07T19:12:33.795+0000] {processor.py:161} INFO - Started process (PID=1622) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:12:33.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:12:33.803+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:12:33.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:12:33.854+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:12:33.877+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:12:33.877+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:12:33.893+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:12:33.893+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:12:33.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.118 seconds
+[2026-04-07T19:13:05.221+0000] {processor.py:161} INFO - Started process (PID=1627) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:13:05.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:13:05.224+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:13:05.224+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:13:05.248+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:13:05.272+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:13:05.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:13:05.288+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:13:05.288+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:13:05.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.089 seconds
+[2026-04-07T19:13:36.669+0000] {processor.py:161} INFO - Started process (PID=1632) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:13:36.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:13:36.672+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:13:36.672+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:13:36.700+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:13:36.732+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:13:36.732+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:13:36.754+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:13:36.754+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:13:36.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.114 seconds
+[2026-04-07T19:14:07.217+0000] {processor.py:161} INFO - Started process (PID=1637) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:14:07.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:14:07.221+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:14:07.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:14:07.246+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:14:07.271+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:14:07.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:14:07.288+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:14:07.288+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:14:07.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.096 seconds
+[2026-04-07T19:14:38.665+0000] {processor.py:161} INFO - Started process (PID=1642) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:14:38.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:14:38.668+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:14:38.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:14:38.687+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:14:38.714+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:14:38.714+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:14:38.733+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:14:38.733+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:14:38.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.090 seconds
+[2026-04-07T19:15:10.190+0000] {processor.py:161} INFO - Started process (PID=1647) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:15:10.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:15:10.193+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:15:10.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:15:10.210+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:15:10.237+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:15:10.237+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:15:10.253+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:15:10.253+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:15:10.268+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.085 seconds
+[2026-04-07T19:15:41.654+0000] {processor.py:161} INFO - Started process (PID=1652) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:15:41.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:15:41.657+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:15:41.657+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:15:41.683+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:15:41.709+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:15:41.709+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:15:41.729+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:15:41.729+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:15:41.745+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.099 seconds
+[2026-04-07T19:16:12.173+0000] {processor.py:161} INFO - Started process (PID=1657) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:16:12.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:16:12.176+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:16:12.175+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:16:12.190+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:16:12.213+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:16:12.212+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:16:12.230+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:16:12.230+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:16:12.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.078 seconds
+[2026-04-07T19:16:43.645+0000] {processor.py:161} INFO - Started process (PID=1662) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:16:43.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:16:43.649+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:16:43.648+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:16:43.686+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:16:43.710+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:16:43.710+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:16:43.732+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:16:43.732+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:16:43.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.119 seconds
+[2026-04-07T19:17:15.054+0000] {processor.py:161} INFO - Started process (PID=1667) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:17:15.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:17:15.056+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:17:15.056+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:17:15.071+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:17:15.095+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:17:15.095+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:17:15.112+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:17:15.112+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:17:15.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.082 seconds
+[2026-04-07T19:17:45.630+0000] {processor.py:161} INFO - Started process (PID=1672) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:17:45.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:17:45.636+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:17:45.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:17:45.693+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:17:45.716+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:17:45.715+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:17:45.734+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:17:45.734+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:17:45.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.133 seconds
+[2026-04-07T19:18:17.097+0000] {processor.py:161} INFO - Started process (PID=1677) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:18:17.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:18:17.104+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:18:17.103+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:18:17.152+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:18:17.179+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:18:17.179+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:18:17.203+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:18:17.202+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:18:17.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.140 seconds
+[2026-04-07T19:18:48.856+0000] {processor.py:161} INFO - Started process (PID=1682) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:18:48.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:18:48.957+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:18:48.950+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:18:49.111+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:18:49.197+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:18:49.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:18:49.283+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:18:49.283+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:18:49.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.874 seconds
+[2026-04-07T19:19:19.842+0000] {processor.py:161} INFO - Started process (PID=1687) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:19:19.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:19:19.845+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:19:19.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:19:19.885+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:19:19.942+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:19:19.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:19:19.971+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:19:19.971+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:19:19.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.159 seconds
+[2026-04-07T19:19:50.299+0000] {processor.py:161} INFO - Started process (PID=1692) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:19:50.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:19:50.302+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:19:50.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:19:50.326+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:19:50.354+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:19:50.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:19:50.383+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:19:50.383+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:19:50.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.112 seconds
+[2026-04-07T19:20:21.936+0000] {processor.py:161} INFO - Started process (PID=1697) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:20:21.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:20:21.940+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:20:21.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:20:21.983+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:20:22.017+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:20:22.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:20:22.034+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:20:22.034+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:20:22.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.131 seconds
+[2026-04-07T19:20:53.358+0000] {processor.py:161} INFO - Started process (PID=1702) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:20:53.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:20:53.360+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:20:53.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:20:53.376+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:20:53.400+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:20:53.400+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:20:53.416+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:20:53.416+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:20:53.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.080 seconds
+[2026-04-07T19:21:23.865+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:21:23.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:21:23.868+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:21:23.868+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:21:23.929+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:21:23.961+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:21:23.961+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:21:23.980+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:21:23.980+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:21:24.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.150 seconds
+[2026-04-07T19:21:55.347+0000] {processor.py:161} INFO - Started process (PID=1712) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:21:55.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:21:55.349+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:21:55.349+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:21:55.365+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:21:55.389+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:21:55.388+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:21:55.405+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:21:55.405+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:21:55.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.080 seconds
+[2026-04-07T19:22:26.814+0000] {processor.py:161} INFO - Started process (PID=1717) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:22:26.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:22:26.819+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:22:26.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:22:26.854+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:22:26.893+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:22:26.892+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:22:26.920+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:22:26.919+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:22:26.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.141 seconds
+[2026-04-07T19:22:58.357+0000] {processor.py:161} INFO - Started process (PID=1722) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:22:58.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:22:58.360+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:22:58.360+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:22:58.389+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:22:58.430+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:22:58.430+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:22:58.463+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:22:58.463+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:22:58.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.141 seconds
+[2026-04-07T19:23:28.739+0000] {processor.py:161} INFO - Started process (PID=1727) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:23:28.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:23:28.743+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:23:28.742+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:23:28.772+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:23:28.803+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:23:28.803+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:23:28.831+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:23:28.831+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:23:28.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.124 seconds
+[2026-04-07T19:24:00.290+0000] {processor.py:161} INFO - Started process (PID=1732) to work on /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:24:00.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/shopstream_pipeline.py for tasks to queue
+[2026-04-07T19:24:00.294+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:24:00.294+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:24:00.337+0000] {processor.py:840} INFO - DAG(s) 'shopstream_pipeline' retrieved from /opt/airflow/dags/shopstream_pipeline.py
+[2026-04-07T19:24:00.371+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:24:00.371+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-04-07T19:24:00.393+0000] {logging_mixin.py:188} INFO - [2026-04-07T19:24:00.393+0000] {dag.py:3954} INFO - Setting next_dagrun for shopstream_pipeline to 2026-04-07 06:00:00+00:00, run_after=2026-04-08 06:00:00+00:00
+[2026-04-07T19:24:00.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/shopstream_pipeline.py took 0.132 seconds
