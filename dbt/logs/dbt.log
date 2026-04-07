@@ -1,0 +1,30 @@
+[0m22:51:21.114435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF834C590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF5DC4690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF8D5C550>]}
+
+
+============================== 22:51:21.119647 | 519dd7de-f41b-4ba6-b845-b880b79d7db7 ==============================
+[0m22:51:21.119647 [info ] [MainThread]: Running with dbt=1.11.7
+[0m22:51:21.120369 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Navdeep\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init shopstream_dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m22:51:21.149452 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Navdeep\.dbt
+[0m22:51:21.153898 [debug] [MainThread]: Starter project path: C:\Users\Navdeep\Desktop\VS CODE project\shopstream\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:51:21.189660 [info ] [MainThread]: 
+Your new dbt project "shopstream_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:51:21.190237 [info ] [MainThread]: Setting up your profile.
+[0m22:51:45.044585 [info ] [MainThread]: Profile shopstream_dbt written to C:\Users\Navdeep\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m22:51:45.045556 [debug] [MainThread]: Command `dbt init` succeeded at 22:51:45.045434 after 24.05 seconds
+[0m22:51:45.045898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFFA45E780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF8D0FE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFFA44EAD0>]}
+[0m22:51:45.046302 [debug] [MainThread]: Flushing usage events
+[0m22:51:45.651195 [debug] [MainThread]: An error was encountered while trying to flush usage events
