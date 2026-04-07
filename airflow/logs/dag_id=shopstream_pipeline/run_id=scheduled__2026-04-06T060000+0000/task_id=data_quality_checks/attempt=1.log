@@ -20,3 +20,25 @@
 [2026-04-07T17:26:38.518+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
 [2026-04-07T17:26:38.648+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
 [2026-04-07T17:26:38.654+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-04-07T18:15:50.853+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-07T18:15:50.926+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: shopstream_pipeline.data_quality_checks scheduled__2026-04-06T06:00:00+00:00 [queued]>
+[2026-04-07T18:15:50.948+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: shopstream_pipeline.data_quality_checks scheduled__2026-04-06T06:00:00+00:00 [queued]>
+[2026-04-07T18:15:50.949+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-04-07T18:15:50.975+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): data_quality_checks> on 2026-04-06 06:00:00+00:00
+[2026-04-07T18:15:50.991+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'shopstream_pipeline', 'data_quality_checks', 'scheduled__2026-04-06T06:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/shopstream_pipeline.py', '--cfg-path', '/tmp/tmpllas4d0_']
+[2026-04-07T18:15:51.000+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=411) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-07T18:15:51.000+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask data_quality_checks
+[2026-04-07T18:15:51.003+0000] {standard_task_runner.py:63} INFO - Started process 412 to run task
+[2026-04-07T18:15:51.211+0000] {task_command.py:426} INFO - Running <TaskInstance: shopstream_pipeline.data_quality_checks scheduled__2026-04-06T06:00:00+00:00 [running]> on host 6b94f4fc707d
+[2026-04-07T18:15:51.462+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='navdeep' AIRFLOW_CTX_DAG_ID='shopstream_pipeline' AIRFLOW_CTX_TASK_ID='data_quality_checks' AIRFLOW_CTX_EXECUTION_DATE='2026-04-06T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-06T06:00:00+00:00'
+[2026-04-07T18:15:51.466+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-07T18:15:51.882+0000] {logging_mixin.py:188} INFO - PASS: No null order IDs
+[2026-04-07T18:15:51.888+0000] {logging_mixin.py:188} INFO - PASS: No negative revenue
+[2026-04-07T18:15:51.913+0000] {logging_mixin.py:188} INFO - PASS: Customer count sanity — 1000
+[2026-04-07T18:15:51.923+0000] {logging_mixin.py:188} INFO - All data quality checks passed!
+[2026-04-07T18:15:51.925+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-07T18:15:51.928+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-07T18:15:51.962+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=shopstream_pipeline, task_id=data_quality_checks, run_id=scheduled__2026-04-06T06:00:00+00:00, execution_date=20260406T060000, start_date=20260407T181550, end_date=20260407T181551
+[2026-04-07T18:15:52.032+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-07T18:15:52.116+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-07T18:15:52.123+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

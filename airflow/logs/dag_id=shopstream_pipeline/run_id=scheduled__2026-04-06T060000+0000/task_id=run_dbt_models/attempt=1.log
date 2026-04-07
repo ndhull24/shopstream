@@ -1,0 +1,96 @@
+[2026-04-07T18:15:58.022+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-07T18:15:58.074+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: shopstream_pipeline.run_dbt_models scheduled__2026-04-06T06:00:00+00:00 [queued]>
+[2026-04-07T18:15:58.085+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: shopstream_pipeline.run_dbt_models scheduled__2026-04-06T06:00:00+00:00 [queued]>
+[2026-04-07T18:15:58.086+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-04-07T18:15:58.101+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): run_dbt_models> on 2026-04-06 06:00:00+00:00
+[2026-04-07T18:15:58.111+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'shopstream_pipeline', 'run_dbt_models', 'scheduled__2026-04-06T06:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/shopstream_pipeline.py', '--cfg-path', '/tmp/tmp4xy6du7u']
+[2026-04-07T18:15:58.114+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=476) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-04-07T18:15:58.117+0000] {standard_task_runner.py:91} INFO - Job 6: Subtask run_dbt_models
+[2026-04-07T18:15:58.128+0000] {standard_task_runner.py:63} INFO - Started process 477 to run task
+[2026-04-07T18:15:58.274+0000] {task_command.py:426} INFO - Running <TaskInstance: shopstream_pipeline.run_dbt_models scheduled__2026-04-06T06:00:00+00:00 [running]> on host 6b94f4fc707d
+[2026-04-07T18:15:58.470+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='navdeep' AIRFLOW_CTX_DAG_ID='shopstream_pipeline' AIRFLOW_CTX_TASK_ID='run_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2026-04-06T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-06T06:00:00+00:00'
+[2026-04-07T18:15:58.472+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-04-07T18:16:23.987+0000] {logging_mixin.py:188} INFO - Running dbt...
+[2026-04-07T18:16:39.479+0000] {logging_mixin.py:188} INFO - 18:16:29  Running with dbt=1.11.7
+18:16:30  Registered adapter: duckdb=1.10.1
+18:16:30  Unable to do partial parsing because profile has changed
+18:16:33  [WARNING][MissingArgumentsPropertyInGenericTestDeprecation]: Deprecated
+functionality
+Found top-level arguments to test `accepted_values` defined on 'stg_customers'
+in package 'shopstream_dbt' (models/staging/schema.yml). Arguments to generic
+tests should be nested under the `arguments` property.
+18:16:34  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.shopstream_dbt.intermediate
+18:16:34  Found 5 models, 11 data tests, 475 macros
+18:16:34  
+18:16:34  Concurrency: 4 threads (target='dev')
+18:16:34  
+18:16:35  1 of 5 START sql view model main.stg_customers ................................. [RUN]
+18:16:35  2 of 5 START sql view model main.stg_order_items ............................... [RUN]
+18:16:35  3 of 5 START sql view model main.stg_orders .................................... [RUN]
+18:16:35  4 of 5 START sql view model main.stg_products .................................. [RUN]
+18:16:36  2 of 5 OK created sql view model main.stg_order_items .......................... [OK in 1.24s]
+18:16:36  3 of 5 OK created sql view model main.stg_orders ............................... [OK in 1.24s]
+18:16:36  1 of 5 OK created sql view model main.stg_customers ............................ [OK in 1.28s]
+18:16:36  4 of 5 OK created sql view model main.stg_products ............................. [OK in 1.27s]
+18:16:37  5 of 5 START sql table model main.mart_orders .................................. [RUN]
+18:16:37  5 of 5 OK created sql table model main.mart_orders ............................. [OK in 0.62s]
+18:16:37  
+18:16:37  Finished running 1 table model, 4 view models in 0 hours 0 minutes and 2.81 seconds (2.81s).
+18:16:37  
+18:16:37  Completed successfully
+18:16:37  
+18:16:37  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=5
+18:16:38  [WARNING][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingArgumentsPropertyInGenericTestDeprecation: 2 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[2026-04-07T18:16:39.480+0000] {logging_mixin.py:188} INFO - Running dbt tests...
+[2026-04-07T18:16:49.595+0000] {logging_mixin.py:188} INFO - 18:16:43  Running with dbt=1.11.7
+18:16:44  Registered adapter: duckdb=1.10.1
+18:16:44  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.shopstream_dbt.intermediate
+18:16:45  Found 5 models, 11 data tests, 475 macros
+18:16:45  
+18:16:45  Concurrency: 4 threads (target='dev')
+18:16:45  
+18:16:46  1 of 11 START test accepted_values_stg_customers_segment__VIP__Regular__At_Risk__New  [RUN]
+18:16:46  2 of 11 START test accepted_values_stg_orders_status__completed__pending__cancelled__refunded  [RUN]
+18:16:46  3 of 11 START test not_null_stg_customers_customer_id .......................... [RUN]
+18:16:46  4 of 11 START test not_null_stg_customers_email ................................ [RUN]
+18:16:47  3 of 11 PASS not_null_stg_customers_customer_id ................................ [PASS in 0.55s]
+18:16:47  4 of 11 PASS not_null_stg_customers_email ...................................... [PASS in 0.56s]
+18:16:47  2 of 11 PASS accepted_values_stg_orders_status__completed__pending__cancelled__refunded  [PASS in 0.58s]
+18:16:47  1 of 11 PASS accepted_values_stg_customers_segment__VIP__Regular__At_Risk__New . [PASS in 0.60s]
+18:16:47  5 of 11 START test not_null_stg_order_items_item_id ............................ [RUN]
+18:16:47  6 of 11 START test not_null_stg_orders_order_id ................................ [RUN]
+18:16:47  7 of 11 START test not_null_stg_products_product_id ............................ [RUN]
+18:16:47  8 of 11 START test unique_stg_customers_customer_id ............................ [RUN]
+18:16:47  5 of 11 PASS not_null_stg_order_items_item_id .................................. [PASS in 0.38s]
+18:16:47  6 of 11 PASS not_null_stg_orders_order_id ...................................... [PASS in 0.38s]
+18:16:47  7 of 11 PASS not_null_stg_products_product_id .................................. [PASS in 0.38s]
+18:16:47  8 of 11 PASS unique_stg_customers_customer_id .................................. [PASS in 0.39s]
+18:16:47  9 of 11 START test unique_stg_order_items_item_id .............................. [RUN]
+18:16:47  10 of 11 START test unique_stg_orders_order_id ................................. [RUN]
+18:16:47  11 of 11 START test unique_stg_products_product_id ............................. [RUN]
+18:16:48  11 of 11 PASS unique_stg_products_product_id ................................... [PASS in 0.29s]
+18:16:48  10 of 11 PASS unique_stg_orders_order_id ....................................... [PASS in 0.32s]
+18:16:48  9 of 11 PASS unique_stg_order_items_item_id .................................... [PASS in 0.33s]
+18:16:48  
+18:16:48  Finished running 11 data tests in 0 hours 0 minutes and 2.43 seconds (2.43s).
+18:16:48  
+18:16:48  Completed successfully
+18:16:48  
+18:16:48  Done. PASS=11 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=11
+[2026-04-07T18:16:49.596+0000] {logging_mixin.py:188} INFO - dbt complete!
+[2026-04-07T18:16:49.598+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-04-07T18:16:49.599+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-04-07T18:16:49.617+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=shopstream_pipeline, task_id=run_dbt_models, run_id=scheduled__2026-04-06T06:00:00+00:00, execution_date=20260406T060000, start_date=20260407T181558, end_date=20260407T181649
+[2026-04-07T18:16:49.669+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-04-07T18:16:49.717+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-04-07T18:16:49.722+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

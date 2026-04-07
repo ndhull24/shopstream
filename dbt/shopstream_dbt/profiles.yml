@@ -1,0 +1,7 @@
+shopstream_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/data/shopstream.duckdb
+      threads: 4
