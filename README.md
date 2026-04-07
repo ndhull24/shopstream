@@ -383,7 +383,7 @@ streamlit run pipelines/dashboard.py
 
 ## Author
 
-**Navdeep Singh**
+**Navdeep Dhull**
 
 Built as a comprehensive learning project covering the full modern data stack — from raw data generation to production-pattern ML-powered dashboards.
 
